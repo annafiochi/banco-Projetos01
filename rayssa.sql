@@ -1,11 +1,12 @@
  / INSERT tabela dicas
- CREATE TABLE dicas (
+
+CREATE TABLE dicas (
 id SERIAL PRIMARY KEY,
 url VARCHAR(300),
 titulo VARCHAR (100) NOT NULL,
 descricao TEXT,
 id_autor INT NOT NULL,
-FOREIGN KEY (id_autor) REFERENCES autor(id)
+FOREIGN KEY (id_autor) REFERENCES autor(id_autor)
 );
 INSERT INTO dicas (url, titulo, descricao, id_autor) VALUES
 ('https://images.app.goo.gl/LvH9ewf1uEAn9S2x8' ,  'Plano de Estudos', 'Organize um plano de estudos com cronograma bem definido e prazos para revisar os conteúdos.', 4),
@@ -25,7 +26,7 @@ INSERT INTO dicas (url, titulo, descricao, id_autor) VALUES
  FOREIGN KEY (id_autor) REFERENCES  autor (id_autor)
 );
 
-INSERT INTO carreiras (titulo, descricao, url, id_autor) VALUES
+INSERT INTO carreiras (titulo, descricao, url_carreiras, id_autor) VALUES
 ('docência', 'Uma faculdade que é bastante reconhecida na formação de professores é a Universidade de São Paulo (USP), especialmente o curso de Licenciatura em Geografia. Este curso prepara os estudantes para atuar como docentes em escolas de educação básica, abordando tanto os conteúdos da Geografia quanto as metodologias de ensino. Ser docente de Geografia envolve mais do que apenas transmitir informações sobre o planeta, suas características físicas e sociais. O professor de Geografia desempenha um papel fundamental na formação da consciência crítica dos estudantes, ajudando-os a compreender as relações entre o meio ambiente, a sociedade e a cultura. Além disso, o docente deve estar atualizado sobre questões contemporâneas, como mudanças climáticas, urbanização, globalização e direitos humanos, integrando esses temas ao currículo. O trabalho do professor de Geografia também inclui a utilização de diversas ferramentas pedagógicas, como mapas, recursos digitais e atividades práticas, para tornar o aprendizado mais dinâmico e significativo. O docente deve ser capaz de estimular o interesse dos alunos pela disciplina, promovendo debates e reflexões sobre a realidade local e global.', 'https://images.app.goo.gl/nWGFQn9q66atttro7', 3),
 ('Planejamento urbano', 'Uma faculdade que oferece formação na área de planejamento agrícola é a Universidade Estadual de Campinas (UNICAMP), que dispõe de um curso de Engenharia Agronômica. Este curso prepara os alunos para atuar em diversas áreas da agricultura, incluindo o planejamento e a gestão de sistemas agrícolas. A profissão de planejamento agrícola envolve a análise e o desenvolvimento de estratégias para otimizar a produção agrícola, considerando fatores como a escolha de culturas, o uso eficiente de recursos naturais, a sustentabilidade ambiental e a viabilidade econômica. Os profissionais dessa área são responsáveis por planejar a implementação de práticas agrícolas que aumentem a produtividade e a rentabilidade, ao mesmo tempo em que minimizam os impactos ambientais. Os planejadores agrícolas trabalham em diferentes setores, incluindo propriedades rurais, empresas de consultoria, órgãos governamentais e organizações não governamentais. Suas atividades podem incluir a realização de estudos de viabilidade, a elaboração de projetos de irrigação, a análise de solo e clima, e a implementação de técnicas de manejo sustentável. Além disso, é fundamental que esses profissionais estejam atualizados sobre as novas tecnologias e inovações no setor agrícola, como a agricultura de precisão e o uso de biotecnologia, para oferecer soluções eficazes aos desafios enfrentados pelos agricultores.', 'https://images.app.goo.gl/TqM7qqq5Y43AS4ki8', 3),
 ('Planejamento agrícola', 'Uma faculdade que se destaca na formação de profissionais para a área de planejamento agrícola é a Universidade Federal de Lavras (UFLA), que oferece o curso de Engenharia Agronômica. Este curso é conhecido por sua sólida formação teórica e prática, preparando os alunos para atuar em diversas áreas da agricultura, incluindo o planejamento e a gestão de sistemas produtivos. A profissão de planejamento agrícola envolve a elaboração de estratégias e práticas que buscam otimizar a produção agrícola, levando em consideração aspectos econômicos, sociais e ambientais. Os profissionais dessa área são responsáveis por desenvolver planos que maximizem a eficiência na utilização de recursos, como água, solo e insumos, além de promover a sustentabilidade das atividades agrícolas. Os planejadores agrícolas desempenham um papel crucial em diversas atividades, como:

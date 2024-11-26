@@ -70,7 +70,7 @@ Titulo TEXT
 CREATE TABLE especialista (
 id_especialista SERIAL PRIMARY KEY,
 nome VARCHAR(100) NOT NULL,
-especialidade VARCHAR(100) NOT NULL,
+especialidade VARCHAR(100) NOT NULL
 );
 
 CREATE TABLE entrevistas (
