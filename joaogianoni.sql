@@ -1,13 +1,12 @@
 CREATE TABLE autor (
-id_autor text,
+id_autor TEXT,
 nome VARCHAR (100) NOT NULL,
 funcao TEXT,
-url_aluno
 );
 
-INSERT INTO autor (id, nome, funcao, url_aluno)  VALUES
-(1, 'Sophia Gomes', 'P.O', ),
-(2, 'Anna Clara', 'Scrum Master', ),
+INSERT INTO autor (id_autor, nome, funcao)  VALUES
+(1, 'Sophia Gomes', 'P.O' ),
+(2, 'Anna Clara', 'Scrum Master'),
 (3, 'João Vitor Gianoni', 'Time de desenvolvimento' ),
 (4, 'Giovanni Gonçalves', 'Time de desenvolvimento' ),
 (5, 'Rayssa Lagem', 'Time de desenvolvimento' );

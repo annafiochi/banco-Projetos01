@@ -5,10 +5,9 @@ CREATE DATABASE portal_materias_geografia;
 //*tabela secundaria*//
 
 CREATE TABLE autor (
-id_autor text,
+id_autor INT PRIMARY KEY,
 nome VARCHAR (100) NOT NULL,
-funcao TEXT,
-url_aluno
+funcao TEXT
 );
 
 //*Tabela noticias principais*//
