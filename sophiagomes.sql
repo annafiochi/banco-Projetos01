@@ -2,6 +2,8 @@ Criação das tabelas:
 
 CREATE DATABASE portal_materias_geografia;
 
+\c portal_materias_geografia;
+
 //*tabela secundaria*//
 
 CREATE TABLE autor (
@@ -17,7 +19,7 @@ funcao TEXT
  titulo VARCHAR(100) NOT NULL,
  descricao TEXT,
  url_noticia VARCHAR(300),
- subtitulo VARCHAR(150),
+ subtitulo TEXT,
  id_autor INT,
  FOREIGN KEY (id_autor) REFERENCES  autor (id_autor)
 );
@@ -57,13 +59,14 @@ FOREIGN KEY (id_autor) REFERENCES autor(id_autor)
 
 //*Tabela sobre nós*//
 
-CREATE TABLE sobre nós (
+CREATE TABLE sobre_nos (
 id SERIAL PRIMARY KEY,
-id_ autor INT,
-Url_Autor VARCHAR(300),
-descrição TEXT,
-Titulo TEXT
+id_autor INT,
+url_autor VARCHAR(300),
+descricao TEXT,
+titulo TEXT
 );
+
 
 
 //*Tabela entrevista, tem especialista*//

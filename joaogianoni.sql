@@ -17,7 +17,7 @@ CREATE TABLE noticias (
  titulo VARCHAR(100) NOT NULL,
  descricao TEXT,
  url_noticia VARCHAR(300),
- subtitulo VARCHAR(150),
+ subtitulo TEXT,
  id_autor INT,
  FOREIGN KEY (id_autor) REFERENCES  autor (id_autor)
 );
