@@ -1,9 +1,7 @@
 # Portal de Materiais - Geografia 🌍 Banco de Dados
-Este é o **projeto final da disciplina de Banco de Dados**, desenvolvido através da **disciplina de Projetos**. O projeto consiste em um **Portal de Materiais**, nossa  disciplina é **Geografia**, com o objetivo de oferecer aos estudantes e entusiastas da área um ambiente digital para acessar conteúdo relevante e interativo. 
+O nosso **projeto final de Banco de Dados** tem como objetivo a criação de um banco de dados que suporte as funcionalidades e informações do Portal de Materiais, nosso site é de Geografia. O portal foi desenvolvido como parte da disciplina de Projetos, e nele, foram criadas diversas páginas com o propósito de fornecer recursos e conteúdo educacional de qualidade aos usuários.
 
-O portal inclui páginas com notícias, simulados, dicas de estudo, entrevistas com especialista e muito mais, ajudando no aprendizado de Geografia e proporcionando recursos para melhorar o desempenho acadêmico.
-
-Nesse Projeto tivemos que realizar a criação de um Banco de Dados para o nosso Site.
+Nosso objetivo é garantir que o banco de dados seja capaz de suportar as operações do portal, mantendo a integridade dos dados, oferecendo uma boa performance.Este projeto representa uma aplicação prática dos conhecimentos adquiridos na disciplina de Banco de Dados, e é uma oportunidade para integrar teoria e prática, criando uma base sólida para o portal de materiais e assegurando a gestão eficiente de suas informações.
 
 
 ### Funcionalidades
