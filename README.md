@@ -55,7 +55,7 @@ CREATE TABLE especialista;
 CREATE TABLE entrevistas;
 
 
-### Conheça Nossa Equipe 
+### Conheça nossa equipe que realizou a criação desse projeto:
 
 <div style="display: flex; align-items: center;">
 <img src="https://github.com/user-attachments/assets/d73faea8-9ef2-431f-9e4b-c39296c6ebe9" alt="Sophia Gomes" width="150" height="150" style="border-radius: 50%;">
@@ -91,7 +91,22 @@ CREATE TABLE entrevistas;
 
 ### MER E DER
 
- DER: Representação gráfica do MER
+*MER*: Descrição abstrata e conceitual dos dados. 
+
+cada noticia tem um autor (1:N)
+
+cada simulado tem questões (1:N)
+
+cada autor tem uma função (1:1)
+
+cada função tem vários autores (1:N)
+
+cada sobre nós tem um autor  (um para muitos)
+
+cada carreiras tem um autor  (um para muitos)
+
+
+ *DER*: Representação gráfica do MER.
 ![Projeto final](https://github.com/user-attachments/assets/ef950b8c-b799-441e-9dbe-746e9998d62d)
 
 
