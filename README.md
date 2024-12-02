@@ -3,6 +3,7 @@ Este é o **projeto final da disciplina de Banco de Dados**, desenvolvido atrav�
 
 O portal inclui páginas com notícias, simulados, dicas de estudo, entrevistas com especialista e muito mais, ajudando no aprendizado de Geografia e proporcionando recursos para melhorar o desempenho acadêmico.
 
+Nesse Projeto tivemos que realizar a criação de um Banco de Dados para o nosso Site.
 
 
 ### Funcionalidades
