@@ -4,8 +4,6 @@ Este é o **projeto final da disciplina de Banco de Dados**, desenvolvido atrav�
 O portal inclui páginas com notícias, simulados, dicas de estudo, entrevistas com especialista e muito mais, ajudando no aprendizado de Geografia e proporcionando recursos para melhorar o desempenho acadêmico.
 
 
-Nessa etapa tivemos que realizar a criação de um Banco de dados para o nosso site, aqui abaixo temos as informações geral do Projeto:
-
 
 ### Funcionalidades
 O portal contém as seguintes páginas e funcionalidades:
@@ -33,6 +31,28 @@ Este portal foi desenvolvido utilizando as seguintes tecnologias:
 
 ⚪HTML: Estruturação do conteúdo das páginas.
 ⚪CSS: Estilização das páginas. ⚪JavaScript: Funcionalidades interativas.
+
+
+
+### A primeira etapa do projeto foi a criação das Tabelas e dos Inserts.
+#### *Tabelas criadas de acordo com ás páginas do nosso site*:
+
+CREATE TABLE autor;
+
+CREATE TABLE noticias;
+
+CREATE TABLE questoes;
+
+CREATE TABLE carreiras;
+
+CREATE TABLE dicas;
+
+CREATE TABLE sobre_nos;
+
+CREATE TABLE especialista;
+
+CREATE TABLE entrevistas;
+
 
 ### Conheça Nossa Equipe 
 
@@ -62,6 +82,10 @@ Este portal foi desenvolvido utilizando as seguintes tecnologias:
 <img src="https://github.com/user-attachments/assets/c0d1eca1-2c25-4df3-8eb8-aa2a8ad8cc5b" alt="Rayssa Gonçalves" width="150" height="150";">
  <p><strong>Rayssa Gonçalves</strong>: Desenvolvedora do projeto. Trabalhou em HTML e CSS. Ajudou a construir e estilizar as páginas do portal, trabalhando no design e na experiência do usuário.</p>
 </div>
+ <p><strong> Papéis de cada integrante nesse projeto</strong>: Todos os integrantes fizeram juntos as etapas da criação das tabelas, inserts e participaram ativamente de cada detalhe.</p>
+
+
+
 
 
 ### MER E DER
