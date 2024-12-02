@@ -33,5 +33,34 @@ Este portal foi desenvolvido utilizando as seguintes tecnologias:
 ⚪JavaScript: Funcionalidades interativas.
 
 ### Conheça Nossa Equipe
+<div style="display: flex; align-items: center;">
+<img src="https://github.com/user-attachments/assets/d73faea8-9ef2-431f-9e4b-c39296c6ebe9" alt="Sophia Gomes" width="150" height="150" style="border-radius: 50%;">
+ <p><strong>Descrição da imagem</strong>: Logo do portal de materiais Geografia, com bordas arredondadas, que representa a nossa plataforma de conteúdo educacional.</p>
+</div>
 
-!
+<div style="display: flex; align-items: center;">
+<img src="https://github.com/user-attachments/assets/d73faea8-9ef2-431f-9e4b-c39296c6ebe9" alt="Anna Clara Fiochi" width="150" height="150" style="border-radius: 50%;">
+ <p><strong>Descrição da imagem</strong>: Logo do portal de materiais Geografia, com bordas arredondadas, que representa a nossa plataforma de conteúdo educacional.</p>
+</div>
+
+<div style="display: flex; align-items: center;">
+<img src="https://github.com/user-attachments/assets/d73faea8-9ef2-431f-9e4b-c39296c6ebe9" alt="SGiovanni Gonçalves" width="150" height="150" style="border-radius: 50%;">
+ <p><strong>Descrição da imagem</strong>: Logo do portal de materiais Geografia, com bordas arredondadas, que representa a nossa plataforma de conteúdo educacional.</p>
+</div>
+
+<div style="display: flex; align-items: center;">
+<img src="https://github.com/user-attachments/assets/d73faea8-9ef2-431f-9e4b-c39296c6ebe9" alt="João Gianoni" width="150" height="150" style="border-radius: 50%;">
+ <p><strong>Descrição da imagem</strong>: Logo do portal de materiais Geografia, com bordas arredondadas, que representa a nossa plataforma de conteúdo educacional.</p>
+</div>
+
+<div style="display: flex; align-items: center;">
+<img src="https://github.com/user-attachments/assets/d73faea8-9ef2-431f-9e4b-c39296c6ebe9" alt="Rayssa Gonçalves" width="150" height="150" style="border-radius: 50%;">
+ <p><strong>Descrição da imagem</strong>: Logo do portal de materiais Geografia, com bordas arredondadas, que representa a nossa plataforma de conteúdo educacional.</p>
+</div>
+
+
+
+
+
+
+
