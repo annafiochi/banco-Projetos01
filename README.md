@@ -64,6 +64,9 @@ Este portal foi desenvolvido utilizando as seguintes tecnologias:
 
 ### MER E DER
 
+ DER: Representação gráfica do MER
+![Projeto final](https://github.com/user-attachments/assets/ef950b8c-b799-441e-9dbe-746e9998d62d)
+
 
 
 
