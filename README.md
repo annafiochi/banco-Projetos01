@@ -166,21 +166,30 @@ Somos uma equipe de alunos do SENAI formada por cinco integrantes: uma Product O
 
 *MER*: Descrição abstrata e conceitual dos dados. 
 ```sh
-cada noticia tem um autor (1:N)
+Cada autor tem várias noticías (1:N)
 
-cada simulado tem questões (1:N)
+Cada notícia tem um autor (1:1)
 
-cada autor tem uma função (1:1)
+Cada autor tem uma carreira (1:1)
 
-cada função tem vários autores (1:N)
+E cada carreira tem um autor (1:1)
 
-cada sobre nós tem um autor  (um para muitos)
+Cada autor tem uma dica (1:1)
 
-cada carreiras tem um autor  (um para muitos)
+E cada dica tem uma autor (1:1)
+
+Cada autor tem várias entrevistas (1:N)
+
+E cada entrevista tem um autor (1:1)
+
+Cada autor tem um sobre nós (1:1)
+
+E cada sobre nós tem um autor (1:1)
 ```
 
  *DER*: Representação gráfica do MER.
-![Projeto final](https://github.com/user-attachments/assets/ef950b8c-b799-441e-9dbe-746e9998d62d)
+![Capturar](https://github.com/user-attachments/assets/4cf17b77-9d25-4e86-a695-c7ad5eb6f6d7)
+
 
 
 
