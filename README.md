@@ -137,10 +137,6 @@ Somos uma equipe de alunos do SENAI formada por cinco integrantes: uma Product O
 <img src="https://github.com/user-attachments/assets/d73faea8-9ef2-431f-9e4b-c39296c6ebe9" alt="Sophia Gomes" width="150" height="150";">
  <p><strong>Sophia Gomes</strong>: Product Owner (P.O) do projeto. Responsável por gerenciar a visão do produto, definir as funcionalidades, priorizar as tarefas e garantir que a equipe estivesse alinhada com as expectativas do projeto.
 
-### Anna Clara (Scrum Master).</p>
-</div>
-
-
 <div style="display: flex; align-items: center;">
 <img src="https://github.com/user-attachments/assets/340fd2c2-1cd8-4e53-9fe3-5e0ff1b959ea" alt="Anna Clara Fiochi" width="150" height="150";">
  <p><strong>Anna Clara Fiochi</strong>: Scrum Master do projeto. Responsável por facilitar as reuniões diárias, ajudar a remover obstáculos e garantir que a equipe seguisse o processo ágil de Scrum.</p>
@@ -165,7 +161,7 @@ Somos uma equipe de alunos do SENAI formada por cinco integrantes: uma Product O
 
 
 
-### MER E DER
+- ### MER E DER
 
 
 *MER*: Descrição abstrata e conceitual dos dados. 
