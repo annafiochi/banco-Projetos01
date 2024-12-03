@@ -9,6 +9,13 @@ id_especialista INT,
 FOREIGN KEY (id_especialista) REFERENCES especialista(id_especialista)
 );
  
+ INSERT INTO sobre_nos (id_autor, url_autor, descricao, titulo) VALUES
+    (1, 'https://web.whatsapp.com/5a5b1b9f-1be6-465a-a52d-bbde41952779', 'Product Owner', 'Sophia Gomes' ),
+    (2, 'https://web.whatsapp.com/fef5ab82-3a12-4c9d-9d56-c5325da40def', 'Scrum Master', 'Anna Fiochi' ),
+    (3, 'https://web.whatsapp.com/21624c9e-4fbc-424d-bab4-c2cb1f1101ba', 'Time de Desenvolvimento', 'João Gianoni'),
+    (4, 'https://web.whatsapp.com/68ffe6cf-b257-464f-ae9c-72e21839a652', 'Time de Desenvolvimento', 'Giovanni Gonçalves'),
+    (5, 'https://web.whatsapp.com/1b80b28f-4235-4716-94f0-51d21d1b7611', 'Time de Desenvolvimento', 'Rayssa Gonçalves');
+  
 
 INSERT INTO entrevistas (url_entrevista, titulo, descricao, data_gravacao, id_autor, id_especialista) VALUES
 
