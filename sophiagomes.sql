@@ -78,10 +78,10 @@ especialidade VARCHAR(100) NOT NULL
 
 CREATE TABLE entrevistas (
 id SERIAL PRIMARY KEY,
-url VARCHAR(300),
+url_entrevista VARCHAR(300),
 titulo VARCHAR(100) NOT NULL,
 descricao TEXT,
-data DATE,
+data_gravacao DATE,
 id_autor INT,
 id_especialista INT,
 FOREIGN KEY (id_especialista) REFERENCES especialista(id_especialista)
