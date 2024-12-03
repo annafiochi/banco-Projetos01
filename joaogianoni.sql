@@ -13,13 +13,13 @@ INSERT INTO autor (id_autor, nome, funcao)  VALUES
 
 
 CREATE TABLE noticias (
- id SERIAL PRIMARY KEY,
- titulo VARCHAR(100) NOT NULL,
- descricao TEXT,
- url_noticia VARCHAR(300),
- subtitulo TEXT,
- id_autor INT,
- FOREIGN KEY (id_autor) REFERENCES  autor (id_autor)
+id SERIAL PRIMARY KEY,
+titulo VARCHAR(100) NOT NULL,
+descricao TEXT,
+url_noticia VARCHAR(300),
+subtitulo TEXT,
+id_autor INT,
+FOREIGN KEY (id_autor) REFERENCES  autor (id_autor)
 );
 
 INSERT INTO noticias (titulo, descricao, url_noticia, subtitulo, id_autor)  VALUES

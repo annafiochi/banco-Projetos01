@@ -38,12 +38,12 @@ resposta_certa TEXT NOT  NULL
 //*Tabela carreiras*//
 
 CREATE TABLE carreiras (
- id SERIAL PRIMARY KEY,
- titulo VARCHAR(100) NOT NULL,
- descricao TEXT,
- url_carreiras VARCHAR(300),
- id_autor INT,
- FOREIGN KEY (id_autor) REFERENCES  autor (id_autor)
+id SERIAL PRIMARY KEY,
+titulo VARCHAR(100) NOT NULL,
+descricao TEXT,
+url_carreiras VARCHAR(300),
+id_autor INT,
+FOREIGN KEY (id_autor) REFERENCES  autor (id_autor)
 );
 
 //*Tabela dicas*//
