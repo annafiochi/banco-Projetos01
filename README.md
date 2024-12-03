@@ -4,7 +4,7 @@ O nosso **projeto final de Banco de Dados** tem como objetivo a criação de um 
 Nosso objetivo é garantir que o banco de dados seja capaz de suportar as operações do portal, mantendo a integridade dos dados, oferecendo uma boa performance.Este projeto representa uma aplicação prática dos conhecimentos adquiridos na disciplina de Banco de Dados, e é uma oportunidade para integrar teoria e prática, criando uma base sólida para o portal de materiais e assegurando a gestão eficiente de suas informações.
 
 
-- ### Funcionalidades
+- ### Funcionalidades ⚙
 O portal contém as seguintes páginas e funcionalidades:
 
 ####  Home
@@ -25,7 +25,7 @@ O portal contém as seguintes páginas e funcionalidades:
 #### Entrevistas 
 🎤 Página com entrevistas com o professor profissional na área de Geografia, que compartilhou suas experiências e visões.
 
-- ### Tecnologias Utilizadas
+- ### Tecnologias Utilizadas 💻
 Este portal foi desenvolvido utilizando as seguintes tecnologias:
 
 ⚪HTML: Estruturação do conteúdo das páginas.
@@ -35,7 +35,7 @@ Este portal foi desenvolvido utilizando as seguintes tecnologias:
 
 
 
-- ### A primeira etapa do projeto foi a criação das Tabelas e dos Inserts.
+- ### A primeira etapa do projeto foi a criação das Tabelas e dos Inserts📊.
 #### *Tabelas criadas de acordo com ás páginas do nosso site*:
 
 
@@ -120,7 +120,7 @@ FOREIGN KEY (id_especialista) REFERENCES especialista(id_especialista)
 ```
 
 
-- ### Conheça nossa equipe que realizou a criação desse projeto:
+- ### Conheça nossa equipe que realizou a criação deste projeto 🚀:
 <a href="">
 <img src="https://github.com/user-attachments/assets/7562a0cf-391c-4c75-8e0f-08bea465e286" width="50%;"></a>
 
