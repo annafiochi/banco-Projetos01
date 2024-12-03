@@ -29,7 +29,9 @@ O portal contém as seguintes páginas e funcionalidades:
 Este portal foi desenvolvido utilizando as seguintes tecnologias:
 
 ⚪HTML: Estruturação do conteúdo das páginas.
-⚪CSS: Estilização das páginas. ⚪JavaScript: Funcionalidades interativas.
+  ⚪CSS: Estilização das páginas.   ⚪JavaScript: Funcionalidades interativas.
+
+⚪SQL: é uma linguagem padrão para criação e manipulação de bancos de dados.
 
 
 
